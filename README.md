@@ -24,6 +24,7 @@ const result = await vibErr(() => {
     openai: "Sam Altman",
   }
 
+  const founder = founders.openal;
   // ⚠️ Uncaught TypeError: founder is undefined
   return founder.toLowerCase().replaceAll(' ', '_');
 });
